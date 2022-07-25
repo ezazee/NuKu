@@ -1,6 +1,6 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/ezazee/NikiLa-POL/NikiLa/assets/img/banner/2.png" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/ezazee/NuKu/nuku/assets/img/banner/Banner%20Tentang%20NuKu.jpg" width="400"></a></p>
 
-<h1 align="center">Website NikiLa POL</h1>
+<h1 align="center">Website NuKu WhiteLabel</h1>
 <h3 align="center">Marketplace yang digabungkan dengan Delivery Order</h3>
 
 ## 🚀 Teknologi yang dipakai:
