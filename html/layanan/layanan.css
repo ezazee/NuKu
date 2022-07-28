@@ -1,9 +1,19 @@
+ :root {
+     --warna-dasar: #E62129;
+     --warna-kedua: #fa8d83;
+     --warna-ketiga: #921519;
+     --warna-putih1: #fff;
+     --warna-putih2: #fafafa;
+     --font-dasar: 'Poppins', sans-serif;
+     --size-font-subtitle: 50px;
+ }
+
 .beer-slider {
     display: inline-block;
     position: relative;
     overflow: hidden;
 }
-
+.layanan
 .beer-slider *,
 .beer-slider:before,
 .beer-slider:after,
@@ -221,7 +231,7 @@ main {
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
+    background: var(--warna-ketiga) url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
     background-size: 40%;
     position: relative;
 }
@@ -254,7 +264,7 @@ main {
 }
 
 .layanan{
-    background-color: #36abf5;
+    background-color: var(--warna-dasar);
     height: 210vh;
     border-top-left-radius: 9%;
     border-top-right-radius: 9%;
@@ -301,7 +311,7 @@ main {
 .layanan-2 {
     position: relative;
     margin-top: -250px;
-    background-color: #1d78b3;
+    background-color: var(--warna-kedua);
     height: 100vh;
     border-top-left-radius: 9%;
     border-top-right-radius: 9%;
@@ -362,7 +372,7 @@ main {
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: #1293E4;
+    background: var(--warna-dasar);
     height: 32px;
     width: 32px;
     border-radius: 32px;
@@ -382,7 +392,7 @@ main {
 @media screen and (max-width: 576px) {
     #cta {
         padding: 50px 0;
-        background: #07476f url(../../../assets/img/home-img.png) -110% no-repeat;
+        background: var(--warna-ketiga) url(../../../assets/img/home-img.png) -110% no-repeat;
         background-size: 20%;
         position: relative;
     }

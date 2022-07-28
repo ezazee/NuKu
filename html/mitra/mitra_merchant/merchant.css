@@ -1,3 +1,13 @@
+ :root {
+     --warna-dasar: #E62129;
+     --warna-kedua: #fa8d83;
+     --warna-ketiga: #921519;
+     --warna-putih1: #fff;
+     --warna-putih2: #fafafa;
+     --font-dasar: 'Poppins', sans-serif;
+     --size-font-subtitle: 50px;
+ }
+
 .container {
     max-width: 90%;
     margin: 0 auto;
@@ -86,7 +96,7 @@
     align-items: center;
     align-content: center;
     width: 100%;
-    background-color: #1D3557;
+    background-color: var(--warna-kedua);
     height: 100vh;
     position: relative;
     flex-direction: row;
@@ -214,12 +224,12 @@
 }
 
 .card:hover .circle {
-    border-color: var(--bg-color-light);
-    background: var(--bg-color);
+    border-color: var(--warna-kedua);
+    background: var(--warna-ketiga);
 }
 
 .card:hover .circle:after {
-    background: var(--bg-color-light);
+    background: var(--warna-putih2);
 }
 
 .card:hover p {
@@ -245,7 +255,7 @@
     height: 131px;
     border-radius: 50%;
     background: #fff;
-    border: 2px solid var(--bg-color);
+    border: 2px solid var(--warna-kedua);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,7 +270,7 @@
     height: 118px;
     display: block;
     position: absolute;
-    background: var(--bg-color);
+    background: var(--warna-kedua);
     border-radius: 50%;
     top: 7px;
     left: 7px;
@@ -277,7 +287,7 @@
     position: absolute;
     height: 118px;
     border-radius: 50%;
-    background: var(--bg-color);
+    background: var(--warna-kedua);
     top: 70px;
     left: 50px;
     z-index: 0;
@@ -286,7 +296,7 @@
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(../../../assets/img/Ilustrasi/Daftar.png)  no-repeat;
+    background: var(--warna-ketiga) url(../../../assets/img/Ilustrasi/Daftar.png)  no-repeat;
     background-size: 40%;
     position: relative;
 }
@@ -368,6 +378,6 @@
 }
 
 .aktif {
-    background: #07476f;
+    background: var(--warna-ketiga);
     color: #FFF;
 }

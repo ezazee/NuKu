@@ -13,7 +13,7 @@
 }
 
 .hero-bg {
-    background-image: url(../../assets/img/banner/Banner\ Tentang\ NikiLaPOL.jpg);
+    background-image: url(../../assets/img/banner/Banner\ Tentang\ NuKu.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -493,7 +493,7 @@
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
+    background: var(--warna-ketiga) url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
     background-size: 40%;
     position: relative;
 }
@@ -575,7 +575,7 @@
 .card .fas.fa-arrow-right {
     position: absolute;
     bottom: -100px;
-    background-color: #1293E4;
+    background-color: var(--warna-dasar);
     height: 50px;
     width: 50px;
     display: flex;
@@ -617,13 +617,13 @@
 }
 
 .container .content .h-6 {
-    color: #1293E4;
+    color: var(--warna-dasar);
     font-weight: 600;
 }
 
 .container .content .btn.btn-primary {
     padding: 15px;
-    background-color: #1293E4;
+    background-color: var(--warna-dasar);
     color: white;
     border-radius: 0px;
     border: none;
@@ -634,7 +634,7 @@
 .card:hover .fa-solid.fa-motorcycle,
 .card:hover .fa-solid.fa-bullhorn {
     color: #fff;
-    background-color: #1293E4;
+    background-color: var(--warna-dasar);
 }
 
 @media (max-width:990px) {

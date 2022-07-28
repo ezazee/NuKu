@@ -1,3 +1,12 @@
+ :root {
+     --warna-dasar: #E62129;
+     --warna-kedua: #fa8d83;
+     --warna-ketiga: #921519;
+     --warna-putih1: #fff;
+     --warna-putih2: #fafafa;
+     --font-dasar: 'Poppins', sans-serif;
+     --size-font-subtitle: 50px;
+ }
 
 .contactUs{
     position: relative;
@@ -49,7 +58,7 @@
 }
 
 .contact h3{
-    color: #1293E4;
+    color: var(--warna-dasar);
     font-weight: 500;
     font-size: 1.4em;
     margin-bottom: 10px;
@@ -79,7 +88,7 @@
 }
 
 .inputBox span{
-    color: #1293E4;
+    color: var(--warna-dasar);
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
@@ -103,7 +112,7 @@
 }
 
 .inputBox input[type="submit"]{
-    background: #1293E4;
+    background: var(--warna-dasar);
     border-radius: 5px;
     color: #fff;
     border: none;
@@ -116,11 +125,11 @@
 /* INFO KONTAK NYA */
 .info{
     background-color: #fff;
-    border: 3px solid #1293E4;
+    border: 3px solid var(--warna-dasar);
 }
 
 .info h3{
-    color: #1293E4;
+    color: var(--warna-dasar);
 }
 
 .info .infoBox div{
@@ -133,7 +142,7 @@
     min-width: 40px;
     height: 40px;
     color: #fff;
-    background-color: #1293E4;
+    background-color: var(--warna-dasar);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,13 +175,13 @@
 }
 
 .sosmed-kontak li a {
-    color: #1293E4;
+    color: var(--warna-dasar);
     font-size: 2em;
-    color: #1293E4;
+    color: var(--warna-dasar);
 }
 
 .sosmed-kontak li a:hover{
-    color: #0c5c8e;
+    color: var(--warna-ketiga);
 }
 
 .map{

@@ -1,3 +1,13 @@
+ :root {
+     --warna-dasar: #E62129;
+     --warna-kedua: #fa8d83;
+     --warna-ketiga: #921519;
+     --warna-putih1: #fff;
+     --warna-putih2: #fafafa;
+     --font-dasar: 'Poppins', sans-serif;
+     --size-font-subtitle: 50px;
+ }
+
 .slick-slider {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -20201,7 +20211,7 @@ body.business .c-card-socmed__circle-2 {
     min-width: 4rem;
     background-color: transparent;
     font-size: 1rem;
-    color: #1293E4;
+    color: var(--warna-dasar);
     border: none;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
@@ -20240,7 +20250,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-search__button:active {
-    background-color: #00880d
+    background-color: var(--warna-ketiga)
 }
 
 @media (min-width:768px) {
@@ -20249,7 +20259,7 @@ body.business .c-card-socmed__circle-2 {
         top: auto;
         right: auto;
         color: #fff;
-        background-color: #1293E4;
+        background-color: var(--warna-dasar);
         min-height: 3rem;
         min-width: 7.5rem;
         border-radius: 24px;
@@ -20264,7 +20274,7 @@ body.business .c-card-socmed__circle-2 {
     border-radius: 4px;
     -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .2);
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .2);
-    background-color: #1293E4;
+    background-color: var(--warna-dasar);
     min-width: 2.5rem;
     min-height: 2.5rem;
     -webkit-box-sizing: border-box;
@@ -20287,7 +20297,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-search__button-1:active {
-    background-color: #1293E4
+    background-color: var(--warna-ketiga)
 }
 
 .c-search__field {
