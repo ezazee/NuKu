@@ -24320,7 +24320,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 64px;
 	height: 64px;
 	margin: 0 auto;
-	border: 3px solid #0066FF;
+	border: 3px solid var(--warna-dasar);
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -25659,7 +25659,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-fixed.context-dark .rd-navbar-toggle span, .rd-navbar-fixed.bg-gray-700 .rd-navbar-toggle span, .rd-navbar-fixed.bg-gray-800 .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary-app .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary-1 .rd-navbar-toggle span, .rd-navbar-fixed.bg-primary-2 .rd-navbar-toggle span, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-toggle span, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-toggle span, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-toggle span, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-toggle span, .rd-navbar-fixed.context-dark .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gray-700 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gray-800 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary-app .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary-1 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-primary-2 .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-toggle span::before, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-toggle span::before, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-toggle span::before, .rd-navbar-fixed.context-dark .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gray-700 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gray-800 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary-app .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary-1 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-primary-2 .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-toggle span::after, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-toggle span::after, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-toggle span::after {
-	background-color: #1293E4;
+	background-color: var(--warna-dasar);
 }
 
 .rd-navbar-fixed.context-dark .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gray-700 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gray-800 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary-app .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary-1 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-primary-2 .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-wave-dark-wrap .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gradient-primary .rd-navbar-collapse-toggle, .rd-navbar-fixed.bg-gradient-primary-1 .rd-navbar-collapse-toggle, .rd-navbar-fixed.rd-navbar-corporate .rd-navbar-collapse-toggle,
@@ -25688,12 +25688,12 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-corporate.rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-corporate.rd-navbar-fixed .rd-nav-item.active .rd-nav-link {
 	background-color: transparent;
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-corporate.rd-navbar-fixed .rd-navbar-dropdown li:hover > a, .rd-navbar-corporate.rd-navbar-fixed .rd-navbar-dropdown li.active > a {
 	background-color: transparent;
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-corporate.rd-navbar-fixed .rd-navbar-panel {
@@ -25714,7 +25714,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate .rd-navbar-collapse-toggle span,
 .rd-navbar-corporate .rd-navbar-collapse-toggle span::before,
 .rd-navbar-corporate .rd-navbar-collapse-toggle span::after {
-	background-color: #1293E4;
+	background-color: var(--warna-dasar);
 }
 
 .rd-navbar-corporate .rd-navbar-nav-wrap {

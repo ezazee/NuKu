@@ -219,7 +219,7 @@ p {
     }
 
     .ctnr-summer:after {
-        background: linear-gradient(180deg, #1293E4, transparent 120%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.582), transparent 120%);
     }
 }
 
@@ -273,7 +273,7 @@ main {
 
 @media (max-width: 575.98px) {
     .layanan{
-    background-color: #36abf5;
+    background-color: var(--warna-dasar);
     height: 480vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -282,7 +282,7 @@ main {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .layanan {
-            background-color: #36abf5;
+            background-color: var(--warna-dasar);
             height: 160vh;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
@@ -291,7 +291,7 @@ main {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .layanan {
-            background-color: #36abf5;
+            background-color: var(--warna-dasar);
             height: 120vh;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
@@ -300,7 +300,7 @@ main {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .layanan {
-            background-color: #36abf5;
+            background-color: var(--warna-dasar);
             height: 150vh;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
@@ -335,8 +335,8 @@ main {
     .layanan-2 {
         position: relative;
         margin-top: -420px;
-        background-color: #1d78b3;
-        height: 480vh;
+        background-color: var(--warna-kedua);
+        height: 150vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }

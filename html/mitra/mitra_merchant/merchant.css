@@ -331,7 +331,7 @@
 @media screen and (max-width: 576px) {
     #cta {
     padding: 50px 0;
-    background: #07476f url(../../../assets/img/home-img.png) -110% no-repeat;
+    background: var(--warna-ketiga) url(../../../assets/img/home-img.png) -110% no-repeat;
     background-size: 20%;
     position: relative;
     }
